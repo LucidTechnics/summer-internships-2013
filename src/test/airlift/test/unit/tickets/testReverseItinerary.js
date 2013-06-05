@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 exports['test reverse itinerary'] = function(_assert)
@@ -152,6 +153,8 @@ function reverse(_tickets)
 
 
 
+=======
+>>>>>>> 0b6d9b40b20d17079bd24d8112a19a3b78ded2a6
 function reversed(t) {
     for (var i = 0; i < t.length; i++ ) {
 	var tmp = t[i][0];
@@ -182,12 +185,4 @@ function sort(t) {
 	t[i][1] = tt[i + 1];
     }
     return t;
-<<<<<<< HEAD
-}};
-//>>>>>>> faee366173f58067d60b92e1d4f42d2c5fa8d436
-*/
-=======
 }
->>>>>>> faee366173f58067d60b92e1d4f42d2c5fa8d436
->>>>>>> e25c178abb98682f4bc9183bbf13c8564888a2e8
->>>>>>> d8d2b18efcc550446146f4ff39d8ac64417fddac
