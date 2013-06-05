@@ -8,7 +8,7 @@ exports['test reverse itinerary'] = function(_assert)
 <<<<<<< HEAD
     var t = [['ALB','BWI'],['LAX','IAD'],['BWI','LAX'],['IAD','GA']];
     var answer = [['GA','IAD'],['IAD','LAX'],['LAX','BWI'],['BWI','ALB']];
-
+//test
     _assert.eq(JSON.stringify(reverse(t)), JSON.stringify([['GA','IAD'],['IAD','LAX'],['LAX','BWI'],['BWI','ALB']]), 'test failed');
 
 };
