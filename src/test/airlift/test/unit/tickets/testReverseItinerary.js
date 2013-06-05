@@ -2,7 +2,7 @@
 
 exports['test reverse itinerary'] = function(_assert)
 {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	var tickets = [['ALB','BWI'],['LAX','IAD'],['BWI','LAX'],['IAD','GA']];
   	var reversed = [];
     var start;
@@ -47,8 +47,8 @@ function reverse(_tickets)
 
     return reversedTickets;
 }
-};
-=======
+};/*
+//=======
     var tickets = [['ALB','BWI'],['LAX','IAD'],['BWI','LAX'],['IAD','GA']];
     
   //var reversed = [];
@@ -58,7 +58,7 @@ function reverse(_tickets)
     
     _assert.eq(JSON.stringify(reversed(tickets)), JSON.stringify([['GA','IAD'],['IAD','LAX'],['LAX','BWI'],['BWI','ALB']]), 'test reversed itinerary failed');
 
-};
+//};
 
 
 
@@ -92,5 +92,6 @@ function sort(t) {
 	t[i][1] = tt[i + 1];
     }
     return t;
-}
->>>>>>> faee366173f58067d60b92e1d4f42d2c5fa8d436
+}};
+//>>>>>>> faee366173f58067d60b92e1d4f42d2c5fa8d436
+*/
