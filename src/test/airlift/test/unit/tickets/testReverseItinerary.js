@@ -1,3 +1,35 @@
+/*function reverse(_tickets)
+{
+    var reversedTickets = [];
+    var map = [][];
+
+    for (var i = 0; i < _tickets.length; i++) {
+	map[pos(_tickets[i][0])][0] = _tickets[i][1];
+	map[pos(_tickets[i][0])][1] = _tickets[i][0];
+	map[pos(_tickets[i][1])][0] = _tickets[i][1];
+    }
+    var end;
+    for (var i = 0; i < map.length; i++) {
+	if (map[i][0] != null && map[i][1] == null ) {
+	    end = map
+	}
+    }
+    
+
+
+    return reversedTickets;
+}
+
+function pos(_t) {
+    var num = 0;
+    for (var i = 0; var < _t.length; i++) {
+	num += _t.charCodeAt(i);
+    }
+    return num;
+}*/
+// This code is me attempty to do it in O(N)... It's not done
+
+
 exports['test reverse itinerary'] = function(_assert)
 {
     var tickets = [['ALB','BWI'],['LAX','IAD'],['BWI','LAX'],['IAD','GA']];
