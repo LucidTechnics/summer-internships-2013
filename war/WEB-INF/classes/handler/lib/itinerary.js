@@ -28,4 +28,3 @@ exports["reversed"] = function(t) {
     t = sort(t);
     return t;
 };
-

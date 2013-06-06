@@ -1,5 +1,6 @@
 exports['test reverse itinerary'] = function(_assert)
 {
+    var itinerary = require("handler/lib/itinerary");
     var tickets = [['ALB','BWI'],['LAX','IAD'],['BWI','LAX'],['IAD','GA']];
 
     var itinerary = require("handler/lib/itinerary");
