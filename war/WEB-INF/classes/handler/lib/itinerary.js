@@ -19,7 +19,11 @@ function sort(t) {
     return t;
 }
 
+<<<<<<< HEAD
 exports["reversed"] = function(t){
+=======
+exports["reversed"] = function(t) {
+>>>>>>> 83ed46514cff37118ef1e3a402ac51501b3aef49
     for (var i = 0; i < t.length; i++ ) {
 	var tmp = t[i][0];
 	t[i][0] = t[i][1];
@@ -27,4 +31,8 @@ exports["reversed"] = function(t){
     }
     t = sort(t);
     return t;
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 83ed46514cff37118ef1e3a402ac51501b3aef49
