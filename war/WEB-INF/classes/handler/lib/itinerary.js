@@ -2,7 +2,7 @@ function sort(t) {
     var tt = [];
     tt.push(t[0][0]);
     tt.push(t[0][1]);
-
+    var _=require("/extlib/underscore");
     for (var i = 0; i < t.length; i++) {
 	for (var j = 0; j < t.length; j++) {
 	    if (t[j][1] === tt[0]) {
@@ -12,13 +12,14 @@ function sort(t) {
 	    }
 	}
     }
-    for (var i = 0; i < tt.length - 1; i++ ) {
-	t[i][0] = tt[i];
-	t[i][1] = tt[i + 1];
-    }
+
+    _.each(_.filter(tt,function(e,i){
+	return i<tt.length-1;}),
+	   function(e,i){
+	       t[i]=[tt[i],tt[i+1]];
+	   });
     return t;
 }
-
 exports["reversed"] = function(t) {
     for (var i = 0; i < t.length; i++ ) {
 	var tmp = t[i][0];
