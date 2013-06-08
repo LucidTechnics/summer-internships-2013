@@ -28,4 +28,4 @@ A Registration
 has a full name
 has an email address
 has a mobile phone number which is not required
-has a "password" which is encrypted
+has a "password"

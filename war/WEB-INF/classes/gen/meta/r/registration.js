@@ -7,7 +7,7 @@ exports.create = function()
     metadata.foreignKeys = {};
     metadata.indexedProperties = {"auditPostDate": 1,"auditPutDate": 1,"auditUserId": 1,"auditRequestId": 1};
     metadata.searchProperties = {"auditPostDate": 1,"auditPutDate": 1,"auditUserId": 1,"auditRequestId": 1};
-    metadata.encryptedProperties = {"password": 1};
+    metadata.encryptedProperties = {};
 
 	return metadata;
 }
