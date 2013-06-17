@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, Depth, User-Agent, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS
+Content-Type: text/html
+Content-Length: 298
+Server: Development/1.0
+Date: Mon, 10 Jun 2013 14:46:48 GMT
+Cache-Control: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+

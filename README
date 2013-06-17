@@ -1,1 +1,1 @@
-curl -X POST --data "fullName=bediako&mobilePhoneNumber=2022577334&password=bigboy&emailAddress=bediako.george@lucidtechnics.com" http://localhost:8080/a/registration
+curl -X POST --data "fullName=sai&mobilePhoneNumber=5712965078&password=gogogo&emailAddress=saisumanpeddy@gmail.com" http://localhost:8080/a/registration
